@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<br><br><br><br><br><br>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+		<title>Application</title>
+		
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">	
+		<link rel = "stylesheet" type = "text/css" href = "format.css">   <!-- Link to style sheet named format.css -->
+		<script type="text/javascript" src="cordova.js"></script> 
+        <script type="text/javascript" src="js/index.js"></script>
+        <title>Temperature Control </title>
+		
+    </head>
+     <body onload="onLoad()">
+	
+
+		<b><p style="color:black; font-size:20px">
+		TEMPERATURE	CONTROL</p></b>	
+		
+		<p><img id="picture" src="1.jpg" alt="Picture is not available"></p>
+	
+           
+		<ul id="bleDeviceList"> </ul> 
+<br><br>		
+		<button id="refreshButton" onClick = "refreshDeviceList()">What is the temperature?</button>
+		<br><br>
+		
+		<input type="text" id="messageInput" value="0"/>
+		<br><br>
+		<button id="ledOnButton" onclick = "data('1')">Refresh</button>
+		<br><br>
+		
+		
+		
+		
+			
+    </body>
+</html>
+			
+
